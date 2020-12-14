@@ -1,4 +1,4 @@
-// compile: gcc -Wall -Werror -Ofast fnv1a_brute.c -o fnv1a_brute
+// compile: gcc -Wall -Werror -Ofast fnv1abrute.c -o fnv1abrute
 
 #include <stdio.h>
 #include <stdlib.h>
