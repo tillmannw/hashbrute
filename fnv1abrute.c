@@ -29,7 +29,7 @@ u_int64_t fnv1a_hash(unsigned char *buffer, size_t size) {
 		hash *= FNV1_PRIME;
 	}
 
-	return hash ^ FNV1_XORKEY;
+	return hash;
 }
 
 int main(int argc, char *argv[]) {
